@@ -4,13 +4,13 @@
   "description": "Default Cypress Tests",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome" 
-    
+    "test": "npx cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^15.1.0"
+    "cypress": "^15.1.0",
+    "start-server-and-test": "^3.0.12"
   }
 }
