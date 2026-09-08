@@ -19,8 +19,8 @@ jobs:
       with:
         node-version: 20
         cache: 'npm'
-    - name: Intalar Depende
-      run: npm i
+    - name: Intalar Dependencias
+      run: npm install
 
     - name: Executar testes
       run:  npm test
